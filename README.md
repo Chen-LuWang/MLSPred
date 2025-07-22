@@ -10,8 +10,9 @@ MLSPred is implemented in Python. It is tested on both Windows and Linux operati
 
 ## 4. Usage
 We provide two demo scripts to demonstrate how to run MLSPred.
-### 4.1. To train the MLSPred model, run the following command in the command line:
+#### 4.1. To train the MLSPred model, run the following command in the command line:
 python train.py
-### 4.2. To test the effect of MLSPred on six independent test machines, run the following command in the command line:
+#### 4.2. To test the effect of MLSPred on six independent test machines, run the following command in the command line:
 python predict.py
 This command will load the model trained on the training set and then make predictions on six independent test data.
+
